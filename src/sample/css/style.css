@@ -1,0 +1,14 @@
+#overlay{
+	-fx-background-image: url("img/web.jpg");
+}
+#table{
+ 	-fx-background-color: rgb(42,141,156);
+}
+#Vbox{
+	-fx-font-family: "Segoe UI Semibold";
+ 	-fx-font-size: 10pt;
+ 	-fx-background-color: rgb(42,141,156);
+}
+#col_pile{	
+
+}
