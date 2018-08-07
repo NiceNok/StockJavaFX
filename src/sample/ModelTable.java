@@ -1,13 +1,13 @@
 package sample;
 
 public class ModelTable {
-    String id;
+    Integer id;
     String pile;
     Integer amount;
     Double lng;
     Double lat;
 
-    public ModelTable(String id, String pile, Integer amount, Double lng, Double lat) {
+    public ModelTable(Integer id, String pile, Integer amount, Double lng, Double lat) {
         this.id = id;
         this.pile = pile;
         this.amount = amount;
@@ -15,11 +15,11 @@ public class ModelTable {
         this.lat = lat;
     }
 
-    public String getId() {
+    public Integer getId() {
         return id;
     }
 
-    public void setId(String id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 

@@ -1,6 +1,7 @@
-package sample;
+package sample.childClasses;
 
 import javafx.event.Event;
+import sample.GoogleMap;
 
 public class MapEvent extends Event {
 

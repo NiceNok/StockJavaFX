@@ -1,4 +1,4 @@
-package sample;
+package sample.childClasses;
 
 import javafx.event.EventHandler;
 import javafx.scene.Cursor;
@@ -6,29 +6,6 @@ import javafx.scene.Node;
 import javafx.scene.canvas.Canvas;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.shape.Rectangle;
-
-/**
- *  ************* How to use ************************
- *
- * Rectangle rectangle = new Rectangle(50, 50);
- * rectangle.setFill(Color.BLACK);
- * DragResizeMod.makeResizable(rectangle, null);
- *
- * Pane root = new Pane();
- * root.getChildren().add(rectangle);
- *
- * primaryStage.setScene(new Scene(root, 300, 275));
- * primaryStage.show();
- *
- * ************* OnDragResizeEventListener **********
- *
- * You need to override OnDragResizeEventListener and
- * 1) preform out of main field bounds check
- * 2) make changes to the node
- * (this class will not change anything in node coordinates)
- *
- * There is defaultListener and it works only with Canvas nad Rectangle
- */
 
 public class DragResizeMod {
     public interface OnDragResizeEventListener {

@@ -1,4 +1,4 @@
-package sample;
+package sample.childWindows;
 
 import javafx.scene.Scene;
 import javafx.scene.control.Label;

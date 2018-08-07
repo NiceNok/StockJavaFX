@@ -9,6 +9,7 @@ import javafx.scene.Parent;
 import javafx.scene.web.WebEngine;
 import javafx.scene.web.WebView;
 import netscape.javascript.JSObject;
+import sample.childClasses.MapEvent;
 
 public class GoogleMap extends Parent {
 
